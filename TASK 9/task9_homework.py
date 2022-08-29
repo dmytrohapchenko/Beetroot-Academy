@@ -1,14 +1,12 @@
-def drawing_triangle():
-    fill = '*'
-    base = 10
+def fio_data():
+    name = 'Jeff'
+    surname = 'Bezos'
+    patronymic = 'Preston'
 
-    def draw_data():
-        for i in range(1, base // 2 + 2):
-            print(fill * i)
-        for j in range(base // 2, 0, -1):
-            print(fill * j)
+    def print_fio():
+        print(f"{surname[0]}{name[0]}{patronymic[0]}".upper())
 
-    return draw_data()
+    return print_fio()
 
 
-drawing_triangle()
+fio_data()
