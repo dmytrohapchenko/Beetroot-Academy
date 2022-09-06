@@ -38,7 +38,7 @@ def trying_or_creating(PHONEBOOK_FILE_NAME):
         return phonebook
 
 
-# ----------------
+
 def printing_single_contact(contact):
     for i, j in contact.items():
         if i != "Contact_No":
@@ -52,7 +52,7 @@ def printing_phonebook():
     input("Press [Enter] to continue.")
 
 
-# ---------------
+
 def adding_contact():
     phonebook.append(
         {
@@ -69,7 +69,7 @@ def adding_contact():
     input("Press [Enter] to continue.")
 
 
-# ---------------
+
 def finding_contact(action):
     contact_to_choose = ""
     while not quit_or_menu(contact_to_choose):
@@ -87,7 +87,7 @@ def finding_contact(action):
                 print(f"Sorry your contact was not found or print it correctly")
 
 
-# --------------
+
 def editing_contact(contact):
     editing_data = ""
     while not quit_or_menu(editing_data):
@@ -114,7 +114,7 @@ def editing_contact(contact):
             print(f"Phone was successfully changed to '{contact['Phone']}'.")
 
 
-# ---------------
+
 def removing_contact(contact):
     for i in range(len(phonebook)):
         if phonebook[i]["Full Name"] == contact["Full Name"]:
@@ -122,7 +122,7 @@ def removing_contact(contact):
             break
 
 
-# --------
+
 def searching_contact():
     searching_input = ""
     found_contacts = []
@@ -137,13 +137,13 @@ def searching_contact():
                     print("Try to print data correctly")
 
 
-# ---------------
+
 def store_phonebook():
     with open(PHONEBOOK_FILE_NAME, "w") as file:
         json.dump(phonebook, file)
 
 
-# --------------
+
 def quit_or_menu(user_input):
     if user_input == "q":
         print(f"All changes are saved to '{PHONEBOOK_FILE_NAME}'")
