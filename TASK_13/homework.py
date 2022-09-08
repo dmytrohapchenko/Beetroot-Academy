@@ -3,7 +3,7 @@ def digit(number, operator=None):
         return number
     return operator(number)
 
-def zero(operator =None): return digit(0, operator)
+def zero(operator=None): return digit(0, operator)
 def one(operator=None): return digit(1, operator)
 def two(operator=None): return digit(2, operator)
 def three(operator=None): return digit(3, operator)
