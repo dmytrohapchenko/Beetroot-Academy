@@ -1,5 +1,7 @@
 ![Logo](https://upload.wikimedia.org/wikipedia/uk/thumb/7/71/Beetroot_Logo_140x50px.svg/1200px-Beetroot_Logo_140x50px.svg.png)
 # That's my repository with tasks from Beetroot-Academy
+- Task 2 - First steps
+- Task 3 - Variables and primitive data types
 - Task 4 - Boolean data type and control structures with the while loop operator
 - Task 5 - Input and a quick overview of imports
 - Task 6 - Lists, tuples and sets
