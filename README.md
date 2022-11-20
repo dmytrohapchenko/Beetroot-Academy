@@ -8,3 +8,10 @@
 - Task 9 - Modules and standard library
 - Task 10 - Exclusion
 - Task 11 - Working with files and context managers, JSON
+- Task 13 - Functions as first-class objects
+- Task 14 - Decorators
+- Task 15 - Classes, scope, and namespaces
+- Task 16 - Imitation
+- Task 17 - Polymorphism. Encapsulation. Dunder methods in Python
+- Task 18 - @property decorators and class decorators
+- Task 19 - Iterators and generators
