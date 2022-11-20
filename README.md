@@ -15,3 +15,10 @@
 - Task 17 - Polymorphism. Encapsulation. Dunder methods in Python
 - Task 18 - @property decorators and class decorators
 - Task 19 - Iterators and generators
+- Task 23 - Type checking in Python
+- Task 24 - Recursion
+- Task 25 - "Big O" notation and embedded data structures in Python
+- Task 26 - Data structures (stack, queue, two-way queue)
+- Task 27 - Graphs and graph algorithms
+- Task 28 - Data structures (lists)
+- Task 29 - Search and hashing algorithms
