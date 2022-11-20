@@ -7,4 +7,4 @@
 - Task 8 "Functions"
 - Task 9 "Modules and standard library"
 - Task 10 "Exclusion"
-- Task 11 "Робота з файлами та менеджери контексту, JSON"
+- Task 11 "Working with files and context managers, JSON"
