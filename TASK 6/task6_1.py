@@ -1,5 +1,9 @@
 import random
-numbers = []
-for i in range(10):
-    numbers.append(random.randint(1,9999999999))
-print(max(numbers))
+
+
+def main():
+    return max([random.randint(1, 9999999999) for i in range(10)])
+
+
+if __name__ == '__main__':
+    print(main())
