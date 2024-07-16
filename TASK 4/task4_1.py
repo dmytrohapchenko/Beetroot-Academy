@@ -1,5 +1,5 @@
 s = input()
 if len(s) > 1:
-    print(s[:2], s[-2:], sep='')
+    print(s[:2] + s[-2:])
 else:
     print('Empty String')
