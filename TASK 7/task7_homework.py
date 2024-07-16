@@ -74,32 +74,17 @@ DEPARTMENTS = {
         },
     ],
 }
-new_DEPARTMENTS = []
 
+new_departments = []
 
-all_names = []
-all_birthdays = []
-all_departments = []
-all_length = len(DEPARTMENTS["devops"]) + len(DEPARTMENTS["backend"]) + len(DEPARTMENTS["frontend"])
+for department, members in DEPARTMENTS.items():
+    for member in members:
+        first_name, last_name = member["name"].split(' ', 1)
+        new_departments.append({
+            "first name": first_name,
+            "second name": last_name,
+            "birthdate": member["birthdate"],
+            "department": department
+        })
 
-
-for i in range(len(DEPARTMENTS["devops"])):
-    all_names.append(DEPARTMENTS["devops"][i]["name"].split(' '))
-    all_birthdays.append(DEPARTMENTS["devops"][i]["birthdate"])
-
-for i in range(len(DEPARTMENTS["backend"])):
-    all_names.append(DEPARTMENTS["backend"][i]["name"].split(' '))
-    all_birthdays.append(DEPARTMENTS["backend"][i]["birthdate"])
-
-for i in range(len(DEPARTMENTS["frontend"])):
-    all_names.append(DEPARTMENTS["frontend"][i]["name"].split(' '))
-    all_birthdays.append(DEPARTMENTS["backend"][i]["birthdate"])
-
-all_departments.append(["devops"]*len(DEPARTMENTS["devops"])+ ["backend"]*len(DEPARTMENTS["backend"]) + ["frontend"]*len(DEPARTMENTS["frontend"]))
-
-
-for i in range(all_length):
-        new_DEPARTMENTS.append({"first name" : all_names[i][0], "second name" : all_names[i][1], "birthdate" : all_birthdays[i], "department" : all_departments[0][i]})
-
-
-print(new_DEPARTMENTS)
+print(new_departments)
