@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="./assets/beetroot-logo.png" alt="Beetroot Academy Logo" width="300">
-</p>
+<img src="./assets/beetroot-logo.png" alt="Beetroot Academy Logo" width="100%">
 
 # Beetroot Academy Python Tasks
 
