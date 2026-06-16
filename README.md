@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/beetroot-banner-dark.png" alt="Beetroot Academy Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/dmytrohapchenko/Beetroot-Academy/main/assets/beetroot-banner-dark.png" alt="Beetroot Academy Banner" width="100%">
 </p>
 
 # Beetroot Academy Python Tasks
