@@ -1,4 +1,4 @@
-<img src="./assets/beetroot-banner-dark.png" alt="Beetroot Academy Banner" width="100%">
+
 
 # Beetroot Academy Python Tasks
 
